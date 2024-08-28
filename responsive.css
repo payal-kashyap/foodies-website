@@ -64,3 +64,78 @@
         margin-top: 3%;
     }
 }
+@media (max-width:768px){
+    #banner h2{
+        font-size: 260%;
+        font-weight: 600;
+    }
+    #banner p{
+        font-size: 100%;
+        font-weight: 500;
+    }
+    .banner-down-number{
+        font-size: 2.4em;
+        font-weight: 500;
+    }
+    .banner-down-head{
+        font-size: 2.3em;
+    }
+    .about-part1-para1{
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+    .about-part2-para1{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .about-part2-para2{
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .about-part2-list li{
+        font-size: 1.1rem;
+        font-weight: 500;
+        list-style: none;
+    }
+    .about-part2-list li .font-awes{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .extra-para1{
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+    .extra-para2{
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .explore-food-head h2{
+        font-size: 2.7rem;
+        font-weight: 800;
+    }
+    .explore-food-para p{
+        font-size: 1.3rem;
+    }
+    .food-name p{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    .food-price p{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .testimonal-head h2{
+        font-size: 2.8rem;
+    }
+    .footer-one-head h2{
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+    .footer-one-para p{
+        font-size: 1rem;
+    }
+    .footer-contact p{
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+}

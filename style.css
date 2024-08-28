@@ -35,6 +35,7 @@ OUR CSS
     margin: 20% 0 5% 0;
     font-size: 343%;
 }
+
 #banner p{
     color: var(--secondary-color);
     font-size: 130%;
@@ -153,9 +154,10 @@ OUR CSS
     background-color: var(--primary-color);
     text-align: center;
 }
+
 .banner-down-number{
     color: var(--white-color);
-    font-size: 4rem;
+    font-size: 350%;
     font-weight: 600;
     margin-top: 8%;
 }
@@ -207,6 +209,8 @@ OUR CSS
     border-radius: 10%;
     font-weight: 500;
     margin-top: 3%;
+    display: block;
+    margin: auto;
 }
 
 .about-part1-button:hover{
@@ -297,7 +301,6 @@ OUR CSS
 .extra-para{
     margin: 3% 24%;
 }
-
 .extra-para1{
     color: var(--secondary-color);
     font-size: 3rem;
@@ -314,6 +317,7 @@ OUR CSS
     text-align: center;
     text-justify: auto;
 }
+
 .extra-button{
     text-justify: auto;
     background-color: var(--primary-color);
@@ -407,6 +411,7 @@ OUR CSS
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
+    font-size: 3rem;
 }
 .testimonals-info{
     background-color: #fff;
@@ -432,6 +437,7 @@ OUR CSS
     font-weight: 600;
     text-align: center;
 }
+
 .footer-one-head h2{
     text-align: center;
     text-justify: auto;
