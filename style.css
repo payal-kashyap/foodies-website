@@ -1,0 +1,573 @@
+/* 
+=========================
+OUR CSS
+=========================
+ */
+
+ .logo{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    width: fit-content;
+    font-size: 2rem;
+    padding: 0rem 0.5rem;
+ }
+.nav li a{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    padding: 0rem 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav li a:hover{
+    color: var(--secondary-color);
+}
+/* #banner{
+    background-image: url(images/bg/bg-1.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 143%;
+} */
+ #banner{
+    background-color: rgba(171, 44, 72,0.45);
+ }
+#banner h2{
+    color: var(--secondary-color);
+    font-weight: 600;
+    margin: 20% 0 5% 0;
+    font-size: 343%;
+}
+#banner p{
+    color: var(--secondary-color);
+    font-size: 130%;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+#banner button{
+    color: var(--white-color);
+    font-weight: 500;
+    background-color: var(--primary-color);
+    border-radius: 7px;
+    padding: 1%;
+    margin-bottom: 10%;
+}
+#banner button:hover{
+    color: var(--secondary-color);
+    font-weight: 800;
+    background-color: var(--white-color);
+}
+#banner .banner-img{
+    margin-top: 4%;
+}
+#banner .banner-img-1{
+    height: 23%;
+    width: 23%;
+    border-radius: 10%;
+    animation: banner-img-1 7s linear 2s infinite;
+    margin-left: 43%;
+}
+@keyframes banner-img-1{
+    25%{
+        transform: translatex(-143%);
+    }
+    43%{
+        transform: translatex(0%);
+        transform: scale(1.25);
+    }
+    75%{
+        transform: translatex(143%);
+    }
+    100%{
+        transform: translatex(0%);
+        transform: scale(1.25);
+    }
+}
+#banner .banner-img-2{
+    height: 23%;
+    width: 23%;
+    border-radius: 10%;
+    animation: banner-img-2 7s linear 2s infinite;
+    margin-left: 43%;
+}
+@keyframes banner-img-2{
+    25%{
+        transform: translatex(143%);
+    }
+    43%{
+        transform: translatex(0%);
+        transform: scale(1.25);
+    }
+    75%{
+        transform: translatex(-143%);
+    }
+    100%{
+        transform: translatex(0%);
+        transform: scale(1.25);
+    }
+}
+#banner .banner-img-3{
+    height: 23%;
+    width: 23%;
+    border-radius: 10%;
+    animation: banner-img-3 7s linear 2s infinite;
+    margin-left: 43%;
+}
+@keyframes banner-img-3{
+    25%{
+        transform: translatex(-143%);
+    }
+    43%{
+        transform: translatex(0%);
+        transform: scale(1.25);
+    }
+    75%{
+        transform: translatex(143%);
+    }
+    100%{
+        transform: translatex(0%);
+        transform: scale(1.25);
+    }
+}
+#banner .banner-img-4{
+    height: 23%;
+    width: 23%;
+    border-radius: 10%;
+    animation: banner-img-4 7s linear 2s infinite;
+    margin-left: 43%;
+}
+@keyframes banner-img-4{
+    25%{
+        transform: translatex(143%);
+    }
+    43%{
+        transform: translatex(0%);
+        transform: scale(1.25);
+    }
+    75%{
+        transform: translatex(-143%);
+    }
+    100%{
+        transform: translatex(0%);
+        transform: scale(1.25);
+    }
+}
+#banner-down{
+    background-color: var(--primary-color);
+    text-align: center;
+}
+.banner-down-number{
+    color: var(--white-color);
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 8%;
+}
+.banner-down-head{
+    color: var(--white-color);
+    font-size: 3.5rem;
+    margin-bottom: 8%;
+    font-style: oblique;
+}
+#about-part1{
+    margin: 6% 0%;
+}
+.about-part1-img img{
+    margin: 5% 25%;
+    border-radius: 3%;
+    animation: about-img1-scale 5s ease-in-out 0.5s infinite;
+    height: 50%;
+    width: 50%;
+    margin-top: 10%;
+}
+
+
+@keyframes about-img1-scale{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.about-part1-para{
+    margin: 5% 0%;
+}
+.about-part1-para1{
+    color: var(--secondary-color);
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-shadow: 4px 4px 6px var(--third-color);
+}
+
+.about-part1-button{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 1%;
+    border: 3px solid var(--black-color);
+    border-radius: 10%;
+    font-weight: 500;
+    margin-top: 3%;
+}
+
+.about-part1-button:hover{
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    padding: 1%;
+    border: 3px solid var(--black-color);
+    border-radius: 10%;
+    font-weight: 700;
+    margin-top: 3%;
+}
+#about-part2{
+    margin: 5% 4%;
+    margin-bottom: 8%;
+}
+.about-part2-img {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.about-part2-img img{
+    width: fit-content;
+    height: fit-content;
+    animation: about-img2-scale 5s ease-in-out 0.5s infinite;
+}
+
+@keyframes about-img2-scale{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.about-part2-para1{
+    color: var(--secondary-color);
+    font-size: 2.6rem;
+    font-weight: 600;
+    text-shadow: 4px 4px 6px var(--third-color);
+}
+.about-part2-para2{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.about-part2-list li{
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 600;
+    list-style: none;
+}
+.about-part2-list li .font-awes{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.about-part2-button{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 1%;
+    border: 3px solid var(--black-color);
+    border-radius: 10%;
+    font-weight: 500;
+    margin-top: 3%;
+}
+
+.about-part2-button:hover{
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    padding: 1%;
+    border: 3px solid var(--black-color);
+    border-radius: 10%;
+    font-weight: 700;
+    margin-top: 3%;
+}
+#extra{
+    width: 100%;
+    height: 100%;
+    /* background: rgba(171, 44, 72,0.45); */
+    background-image: url(images/bg/extra-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.extra-para{
+    margin: 3% 24%;
+}
+
+.extra-para1{
+    color: var(--secondary-color);
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2%;
+    text-align: center;
+    text-justify: auto;
+}
+.extra-para2{
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 1% 7%;
+    text-align: center;
+    text-justify: auto;
+}
+.extra-button{
+    text-justify: auto;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 1%;
+    border: 3px solid var(--black-color);
+    border-radius: 10%;
+    font-weight: 500;
+    margin-top: 2%;
+    margin-left: 42.5%;
+}
+
+.extra-button:hover{
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    padding: 1%;
+    border: 3px solid var(--black-color);
+    border-radius: 10%;
+    font-weight: 700; 
+}
+#explore-food{
+    margin: 6% 3%;
+    
+}
+.explore-food-head h2{
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 3.1rem;
+    font-weight: 900;
+    margin-bottom: 3%;
+    text-shadow: 3px 3px 7px var(--third-color);
+}
+.explore-food-para p{
+    color: var(--text-color);
+    margin: 0% 5% 7% 5%;
+    font-size: 1.6rem;
+    text-align: center;
+    text-justify: auto;
+}
+.food-items-list{
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+.food-items-list:hover{
+    scale: 1.1;
+}
+.food-items img{
+    height: 12rem;
+    width: 18rem;
+    border-radius: 10px;
+    overflow: auto;
+    margin-left: 17%;
+}
+.food-items img:hover{
+    scale: 1.05;
+}
+.food-name p{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.food-price p{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.food-order button{
+    padding: 1.5%;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.food-order button:hover{
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    padding: 1%;
+    border: 3px solid var(--secondary-color);
+    border-radius: 5px;
+    font-weight: 700; 
+}
+#testimonals{
+    background-color: var(--primary-color);
+    padding-bottom: 5%;
+}
+.testimonal-head h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.testimonals-info{
+    background-color: #fff;
+    padding: 6% 0%;
+    border-radius: 10px;
+}
+.testimonal-image img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+.testimonal-name p{
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+.testimonal-work p{
+    color: var(--text-color);
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+}
+.footer-one-head h2{
+    text-align: center;
+    text-justify: auto;
+    margin: 5% 13% 3% 13%;
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+.footer-one-para p{
+    text-align: center;
+    text-justify: auto;
+    margin: 0% 20% 3% 20%;
+    font-size: 1.3rem;
+    color: var(--secondary-color);
+}
+.footer-one-subscribe{
+    text-align: center;
+    text-justify: auto;
+}
+.footer-one-subscribe label{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0.4%;
+    border-radius: 6px;
+    margin-bottom: 10%;
+}
+.footer-one-subscribe input{
+    border: 3px solid var(--secondary-color);
+    border-radius: 6px;
+}
+#footer-two{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.footer-contact p{
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin: auto;
+    margin: 3% 0% 2.5% 0%;
+}
+.footer-symbols{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 6%;
+}
+.footer-copyrights p{
+    text-align: center;
+}
+
+
+
+/* 
+=========================
+IMPORTANT
+=========================
+ */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--secondary-color);
+}
+
+ul,ol{
+    margin: 0;
+}
+
+/* 
+=========================
+VARIABLE DEFINE
+=========================
+ */
+
+:root{
+    --primary-color:#AB2C48;
+    --secondary-color:#43121d;
+    --third-color:#f98169;
+    --white-color:#fff;
+    --text-color:#555;
+    --text-gray:#999;
+    --black-color:#000;
+    --primary-font:'Roboto' , 'sans-serif';
+    --secondary-font:'Quicksand' , 'sans-serif';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 143%;
+    font-weight: 400;
+    font-family: var(--primary-font);
+}
+
+/* 
+=========================
+CUSTOM SCROLLBAR
+=========================
+ */
+
+ ::-webkit-scrollbar{
+    width: 0.625rem;
+ }
+ ::-webkit-scrollbar-track{
+    background: var(--white-color);
+ }
+ ::-webkit-scrollbar-thumb{
+    background: var(--primary-color);
+ }
+
+ /* 
+=========================
+CUSTOM CSS DESIGN
+=========================
+ */
+
+ h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    color: var(--secondary-color);
+ }
+ h2{
+    font-size: 2.25rem;
+    font-weight: 700;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    text-transform: capitalize;
+ }

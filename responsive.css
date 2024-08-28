@@ -1,0 +1,66 @@
+@media (max-width:992px){
+    .about-part1-img img{
+        margin-top: 50%;
+        width: 60%;
+        text-align: center;
+    }
+}
+@media (max-width:768px){
+    .about-part1-img img{
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+}
+@media (max-width:768px){
+    .about-part1-para1{
+        text-align: center;
+        text-justify: auto;
+        margin-top: 0%;
+    }
+}
+@media (max-width:768px){
+    .about-part1-button{
+        margin-left: 40%;
+    }
+}
+@media (max-width:992px){
+    .about-part2-img img{
+        margin-top: 50%;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:768px){
+    .about-part2-img img{
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+}
+@media (max-width:768px){
+    .about-part2-button{
+        margin-left: 40%;
+    }
+}
+@media (max-width:992px){
+    .extra-para{
+        margin: 3% 5%;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:992px){
+    .extra-button{
+        margin-left: 0%;
+        text-align: center;
+    }
+}
+@media (max-width:992px) {
+    .food-items-list{
+        margin-top: 4%;
+    }
+}
+@media (max-width:768px){
+    .testimonal-image img{
+        margin-top: 3%;
+    }
+}
